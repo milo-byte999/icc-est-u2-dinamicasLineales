@@ -15,6 +15,12 @@ public class App {
         String invertido = ejercicio1.invertString(texto);
         System.out.println("Texto original: " + texto);
         System.out.println("Texto invertido: " + invertido);
+
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+        String palabra1 = "radar";
+        String palabra2 = "computacion";
+        System.out.println(ejercicio2.esPalindromo(palabra1));
+        System.out.println(ejercicio2.esPalindromo(palabra2));
         
     }
 
